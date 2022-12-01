@@ -14,11 +14,31 @@
   left: 0;
   right: 0;
   text-align: center;
+
+  /*ease the transition on hover-off*/
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+
 }
 
 .img-overlay:before {
   content: ' ';
   display: block;
   /* adjust 'height' to position overlay content vertically */
-  height: 50%;
+  height: 45%;
+}
+
+
+
+.img-overlay:hover {
+  background-color: black;
+  opacity:0.5;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
