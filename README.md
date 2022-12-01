@@ -1,2 +1,2 @@
 # kids-interior-design
- Interior design for kids
+ Interior design website built with Bootstrap
